@@ -1,9 +1,9 @@
-from antii import protect_main
+from anti import protect_main
 
 
-anti = protect_main()
+antii = protect_main()
 
-@anti
+@antii
 def main():
     print('Hello World')
     input('Press Enter to exit: ')

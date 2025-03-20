@@ -32,17 +32,17 @@ Anti Decompile Python v3 là một công cụ mạnh mẽ giúp bảo vệ mã n
 
 ## Hướng dẫn sử dụng
 
-1.  Nhập tệp `antii.py` vào tệp Python bạn muốn bảo vệ:
+1.  Nhập tệp `anti.py` vào tệp Python bạn muốn bảo vệ:
 
     ```python
-    from antii import protect_main
-    anti = protect_main()
+    from anti import protect_main
+    antii = protect_main()
     ```
 
-2.  Thêm decorator `@anti` trước hàm `main()`:
+2.  Thêm decorator `@antii` trước hàm `main()`:
 
     ```python
-    @anti
+    @antii
     def main():
         print('Hello World')
         input('Nhấn Enter để thoát: ')
